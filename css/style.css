@@ -1,0 +1,183 @@
+/* Bebas neue font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*  font-family: 'Bebas Neue', cursive; */
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+/* core */
+html{
+    scroll-behavior: smooth;
+}
+
+/* ---- nav bar style ---- */
+.navigation-bar{
+    background-color: #FFFBF0;
+    height: auto;
+}
+.hero{
+    background-color: #FFFBF0;
+    width: 100%;
+    height: 715px;
+}
+.pt{
+    padding-top: 5%;
+}
+.mt{
+    margin-top: 5%;
+}
+.nav-logo img{
+    width: 291.11px;
+    height: 39.27px;
+}
+.link-color a{
+    color: #3C3C3C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* hero-wrap  style */
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height: 80px;
+    color: #363958;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #363958;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #363958;
+}
+
+.orange-text{
+    color: #FABE4C;
+}
+.shopping-cart-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.green-btn{
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    border: none;
+}
+
+.top-girl img{
+    /* position: absolute; */
+    width: 549px;
+    height: 559px;
+    margin-top: -65px;
+}
+
+/* --- woman jacket style */
+
+.card{
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    border: none;
+}
+.card-size{
+    width: 370px;
+    height: 550px;
+}
+
+.jacket-back{
+    background :#F1F1F1;
+    width: 334px;
+    height: 327px;
+    border-radius: 20px;
+}
+.ladies-jacket-1 img{
+    width: 293px;
+    height: 293px;
+}
+.ladies-jacket-2 img{
+    width: 203px;
+    height: 273px;
+}
+.ladies-jacket-3 img{
+    width: 210px;
+    height: 257px;
+}
+
+.price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+}
+/* --- man jacket style --- */
+
+.man-jacket-1 img{
+    width: 202px;
+    height: 269px;
+}
+.man-jacket-2 img{
+    width: 243px;
+    height: 256px;
+}
+.man-jacket-3 img{
+    width: 192px;
+    height: 280px;
+}
+
+
+.wrap-shadow{
+    width: 489px;
+    height: 135px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    /* background: red; */
+}
+
+.find-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.find-img img{
+    width: 78px;
+    height: 82px;
+    margin-top: 1.7em;
+    margin-left: 1em;
+}
+.find-text{
+    margin-top: 1.5em;
+    margin-left: 3em;
+}
+.no-background{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+.margin-top{
+    margin-top: 5%;
+}
+/* contact -form */
+
+.contact-image{
+    display: none;
+}
